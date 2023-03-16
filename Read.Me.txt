@@ -1,0 +1,11 @@
+Procedure:
+*Checked with the version of py and pip extensions.
+*installed Pip install Flask
+*Installed  pip install flask_sqlalchemy
+*created app.py, model.py, create.html, datalist.html, data.html, update.html files in vs code.
+
+
+Commands:
+pip install Flask-SQLAlchemy
+pip install Flask
+
