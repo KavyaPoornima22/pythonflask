@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* custom css */
+
+#table{
+  width: 700px;
+  margin-left: 300px;
+}
+
+#C{
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+.form-label{
+  width: 150px;
+}
+
+#form{
+  margin-left: 200px;
+  margin-right: 100px;
+  margin-top: 200px;
+  width: 900px;
+  display: flex;
+  flex: row;
+  border: solid 2px rgb(249, 244, 244);
+  padding: 10px;
+  background-color:rgb(206, 223, 228);
+}
+#submit{
+  height: 30px;
+  width: 120px;
+  margin-top: 30px;
+  margin-right: 80px;
+  background-color: rgb(106, 192, 246);
+  border: 2px white;
+  border-collapse: collapse;
+  color: white;
+}
+#h1{
+  font-weight: 300;
+  text-align: center;
+  margin-top: 30px;
+}
+#h2{
+  font-weight: 300;
+  text-align: center;
+  margin-top: 30px;
+}
+#edit{
+  border-collapse: collapse;
+  border-radius: 3px;
+}
+#delete{
+  border-collapse: collapse;
+  border-radius: 3px;
+
+}
+#back{
+  margin-top: 70px;
+}
